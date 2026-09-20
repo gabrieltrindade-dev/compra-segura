@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Verificar promoção - Compra Segura</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🛡️ Compra Segura</a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle active"
+                            href="#"
+                            data-bs-toggle="dropdown"
+                        >
+                            Serviços
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="verificar-loja.html">
+                                    Verificar loja
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="verificar-promocao.html">
+                                    Verificar promoção
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="educacao.html">
+                                    Educação
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="educacao.html">Dicas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="cabecalho-pagina cabecalho-promocao">
+        <div class="container">
+            <span class="subtitulo-claro">COMPARE ANTES DE COMPRAR</span>
+            <h1>Verificador de promoção</h1>
+
+            <p>
+                Calcule o desconto anunciado e consulte cuidados importantes
+                antes de aproveitar uma oferta.
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-lg-7 mb-4">
+                    <div class="card card-formulario">
+                        <div class="card-body">
+                            <h2 class="h4">🏷️ Analise uma promoção</h2>
+
+                            <form id="formPromocao">
+                                <div class="mb-3">
+                                    <label for="nomeProduto" class="form-label">
+                                        Nome do produto
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="nomeProduto"
+                                        placeholder="Exemplo: Televisão"
+                                    >
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="precoAnterior" class="form-label">
+                                            Preço anterior
+                                        </label>
+
+                                        <input
+                                            type="number"
+                                            class="form-control"
+                                            id="precoAnterior"
+                                            placeholder="Exemplo: 2500"
+                                        >
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <label for="precoPromocional" class="form-label">
+                                            Preço promocional
+                                        </label>
+
+                                        <input
+                                            type="number"
+                                            class="form-control"
+                                            id="precoPromocional"
+                                            placeholder="Exemplo: 1800"
+                                        >
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-warning">
+                                    Calcular desconto
+                                </button>
+                            </form>
+
+                            <div id="resultadoPromocao" class="mt-4"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mb-4">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLvXdEz-Wh8IcD3UzCdx5kz2NW0xT5z2doHx2oJ__TA&s=10"
+                        class="img-fluid imagem-conteudo"
+                        alt="Sacolas representando promoção"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section class="secao-promocao">
+            <div class="container">
+                <div class="titulo-secao">
+                    <span class="subtitulo">PROMOÇÃO OU ARMADILHA?</span>
+                    <h2>Não observe apenas o desconto</h2>
+
+                    <p>
+                        O valor final, o frete, a reputação da loja e as
+                        condições de pagamento também precisam ser analisados.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card card-dica h-100">
+                            <div class="card-body">
+                                <div class="icone-card">📊</div>
+                                <h3 class="h5">Compare os preços</h3>
+
+                                <p>
+                                    Consulte o mesmo produto em outras lojas.
+                                    Um grande percentual de desconto não garante
+                                    o menor preço.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card card-dica h-100">
+                            <div class="card-body">
+                                <div class="icone-card">🚚</div>
+                                <h3 class="h5">Confira o frete</h3>
+
+                                <p>
+                                    Uma promoção pode deixar de ser vantajosa
+                                    quando possui um frete muito alto ou um
+                                    prazo de entrega muito longo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card card-dica h-100">
+                            <div class="card-body">
+                                <div class="icone-card">⏱️</div>
+                                <h3 class="h5">Cuidado com a urgência</h3>
+
+                                <p>
+                                    Cronômetros e mensagens como “última
+                                    unidade” podem tentar apressar a decisão do
+                                    consumidor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <div class="alert alert-warning">
+                <h2 class="h4">Antes de finalizar a compra</h2>
+
+                <p>
+                    Tire uma captura de tela da oferta e guarde o anúncio, o
+                    valor, o prazo de entrega e as condições informadas pela
+                    loja. Esses registros podem ajudar caso ocorra algum
+                    problema.
+                </p>
+
+                <p class="mb-0">
+                    Uma promoção verdadeira também deve apresentar informações
+                    claras sobre produto, pagamento, entrega e troca.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container text-center">
+            <p class="mb-0">
+                Compra Segura — Projeto acadêmico de Desenvolvimento Web
+            </p>
+        </div>
+    </footer>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+body {
+    background-color: #ffffff;
+    color: #253046;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+.area-principal {
+    background-color: #0d6efd;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.area-principal h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.area-principal p {
+    margin-bottom: 30px;
+}
+
+.selo {
+    background-color: #ffffff;
+    color: #0d6efd;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.imagem-principal {
+    border-radius: 25px;
+    border: 5px solid white;
+}
+
+.imagem-conteudo {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.titulo-secao {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+}
+
+.titulo-secao h2 {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.subtitulo {
+    color: #0d6efd;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.subtitulo-claro {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #e0e5eb;
+    border-radius: 15px;
+}
+
+.card-servico,
+.card-dica,
+.card-fonte {
+    text-align: center;
+}
+
+.card-servico:hover,
+.card-dica:hover,
+.card-fonte:hover {
+    border-color: #0d6efd;
+    background-color: #f4f8ff;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.icone-card {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.secao-passos {
+    background-color: #eaf3ff;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.numero-passo {
+    background-color: #0d6efd;
+    color: white;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.lista-verificacao {
+    padding-left: 20px;
+}
+
+.lista-verificacao li {
+    margin-bottom: 10px;
+}
+
+.cabecalho-pagina {
+    background-color: #0d6efd;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.cabecalho-pagina h1 {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.cabecalho-pagina p {
+    max-width: 700px;
+    margin: 15px auto 0 auto;
+    font-size: 18px;
+}
+
+.cabecalho-promocao {
+    background-color: #bb6800;
+}
+
+.cabecalho-educacao {
+    background-color: #198754;
+}
+
+.cabecalho-sobre {
+    background-color: #563d7c;
+}
+
+.card-formulario {
+    border-top: 5px solid #0d6efd;
+}
+
+.card-formulario .card-body {
+    padding: 35px;
+}
+
+.secao-cinza {
+    background-color: #f2f5f8;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.secao-promocao {
+    background-color: #fff4df;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.accordion-item {
+    margin-bottom: 12px;
+    border: 1px solid #dfe4ea;
+}
+
+.accordion-button {
+    font-weight: bold;
+}
+
+.accordion-body {
+    line-height: 1.7;
+}
+
+.rodape {
+    background-color: #172033;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin-top: 0;
+}
+
+.rodape a {
+    color: #d9e8ff;
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.rodape hr {
+    border-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .area-principal {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .area-principal h1 {
+        font-size: 34px;
+    }
+
+    .cabecalho-pagina {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .cabecalho-pagina h1 {
+        font-size: 32px;
+    }
+
+    .card-formulario .card-body {
+        padding: 22px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+    }
+
+    .rodape {
+        text-align: center;
+    }
+}
