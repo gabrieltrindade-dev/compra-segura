@@ -6,26 +6,20 @@
 
     <title>Educação - Compra Segura</title>
 
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
 
+    <!-- menu de navegação -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="index.html">🛡️ Compra Segura</a>
+            <a class="navbar-brand" href="index.html">Compra Segura</a>
 
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menuPrincipal"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -35,12 +29,9 @@
                         <a class="nav-link" href="index.html">Início</a>
                     </li>
 
+                    <!-- menu drop-down -->
                     <li class="nav-item dropdown">
-                        <a
-                            class="nav-link dropdown-toggle active"
-                            href="#"
-                            data-bs-toggle="dropdown"
-                        >
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">
                             Serviços
                         </a>
 
@@ -77,6 +68,7 @@
         </div>
     </nav>
 
+    <!-- cabeçalho da página -->
     <header class="cabecalho-pagina cabecalho-educacao">
         <div class="container">
             <span class="subtitulo-claro">CONHECIMENTO PROTEGE</span>
@@ -89,15 +81,13 @@
         </div>
     </header>
 
+    <!-- conteúdo principal -->
     <main>
+        <!-- seção -->
         <section class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-5 mb-4">
-                    <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnl_PKlkBleBbkw36OSNaFheO7C5F8j7W1MZVmrICV2A&s=10"
-                        class="img-fluid imagem-conteudo"
-                        alt="Pessoa consultando informações"
-                    >
+                    <img src="img/educacao.jpg" class="img-fluid imagem-conteudo" alt="Pessoa consultando informações">
                 </div>
 
                 <div class="col-lg-7">
@@ -122,6 +112,7 @@
             </div>
         </section>
 
+        <!-- seção -->
         <section class="secao-cinza">
             <div class="container">
                 <div class="titulo-secao">
@@ -129,24 +120,16 @@
                     <h2>Principais cuidados nas compras on-line</h2>
                 </div>
 
+                <!-- perguntas em sanfona (accordion) -->
                 <div class="accordion" id="conteudosEducativos">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button
-                                class="accordion-button"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#conteudoUm"
-                            >
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#conteudoUm">
                                 Como identificar um link suspeito?
                             </button>
                         </h2>
 
-                        <div
-                            id="conteudoUm"
-                            class="accordion-collapse collapse show"
-                            data-bs-parent="#conteudosEducativos"
-                        >
+                        <div id="conteudoUm" class="accordion-collapse collapse show" data-bs-parent="#conteudosEducativos">
                             <div class="accordion-body">
                                 <p>
                                     Confira com atenção o endereço exibido no
@@ -175,21 +158,12 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button
-                                class="accordion-button collapsed"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#conteudoDois"
-                            >
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#conteudoDois">
                                 É seguro cadastrar o cartão?
                             </button>
                         </h2>
 
-                        <div
-                            id="conteudoDois"
-                            class="accordion-collapse collapse"
-                            data-bs-parent="#conteudosEducativos"
-                        >
+                        <div id="conteudoDois" class="accordion-collapse collapse" data-bs-parent="#conteudosEducativos">
                             <div class="accordion-body">
                                 <p>
                                     Cadastre o cartão somente em lojas nas quais
@@ -216,21 +190,12 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button
-                                class="accordion-button collapsed"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#conteudoTres"
-                            >
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#conteudoTres">
                                 Como reconhecer uma promoção falsa?
                             </button>
                         </h2>
 
-                        <div
-                            id="conteudoTres"
-                            class="accordion-collapse collapse"
-                            data-bs-parent="#conteudosEducativos"
-                        >
+                        <div id="conteudoTres" class="accordion-collapse collapse" data-bs-parent="#conteudosEducativos">
                             <div class="accordion-body">
                                 <p>
                                     Compare o preço em diferentes lojas e
@@ -258,21 +223,12 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button
-                                class="accordion-button collapsed"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#conteudoQuatro"
-                            >
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#conteudoQuatro">
                                 Quais cuidados devo ter com o Pix?
                             </button>
                         </h2>
 
-                        <div
-                            id="conteudoQuatro"
-                            class="accordion-collapse collapse"
-                            data-bs-parent="#conteudosEducativos"
-                        >
+                        <div id="conteudoQuatro" class="accordion-collapse collapse" data-bs-parent="#conteudosEducativos">
                             <div class="accordion-body">
                                 <p>
                                     Antes de confirmar um Pix, confira o nome,
@@ -299,21 +255,12 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button
-                                class="accordion-button collapsed"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#conteudoCinco"
-                            >
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#conteudoCinco">
                                 Quais são os meus direitos?
                             </button>
                         </h2>
 
-                        <div
-                            id="conteudoCinco"
-                            class="accordion-collapse collapse"
-                            data-bs-parent="#conteudosEducativos"
-                        >
+                        <div id="conteudoCinco" class="accordion-collapse collapse" data-bs-parent="#conteudosEducativos">
                             <div class="accordion-body">
                                 <p>
                                     Nas compras feitas pela internet, o
@@ -342,6 +289,7 @@
             </div>
         </section>
 
+        <!-- seção -->
         <section class="container py-5">
             <div class="titulo-secao">
                 <span class="subtitulo">FONTES CONFIÁVEIS</span>
@@ -364,11 +312,7 @@
                                 do consumidor.
                             </p>
 
-                            <a
-                                href="https://www.procon.sp.gov.br/espaco-consumidor/"
-                                target="_blank"
-                                class="btn btn-outline-primary"
-                            >
+                            <a href="https://www.procon.sp.gov.br/espaco-consumidor/" target="_blank" class="btn btn-outline-primary">
                                 Acessar Procon
                             </a>
                         </div>
@@ -385,11 +329,7 @@
                                 consumidores e empresas participantes.
                             </p>
 
-                            <a
-                                href="https://www.consumidor.gov.br/"
-                                target="_blank"
-                                class="btn btn-outline-primary"
-                            >
+                            <a href="https://www.consumidor.gov.br/" target="_blank" class="btn btn-outline-primary">
                                 Acessar serviço
                             </a>
                         </div>
@@ -406,11 +346,7 @@
                                 dispositivos e dados pessoais.
                             </p>
 
-                            <a
-                                href="https://cartilha.cert.br/"
-                                target="_blank"
-                                class="btn btn-outline-primary"
-                            >
+                            <a href="https://cartilha.cert.br/" target="_blank" class="btn btn-outline-primary">
                                 Ver cartilha
                             </a>
                         </div>
@@ -427,11 +363,7 @@
                                 serviços financeiros.
                             </p>
 
-                            <a
-                                href="https://www.bcb.gov.br/"
-                                target="_blank"
-                                class="btn btn-outline-primary"
-                            >
+                            <a href="https://www.bcb.gov.br/" target="_blank" class="btn btn-outline-primary">
                                 Acessar Banco Central
                             </a>
                         </div>
@@ -448,6 +380,7 @@
         </section>
     </main>
 
+    <!-- rodapé -->
     <footer class="rodape">
         <div class="container text-center">
             <p class="mb-0">
@@ -456,10 +389,10 @@
         </div>
     </footer>
 
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-    </script>
+    <!-- javascript do bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- nosso javascript -->
     <script src="js/script.js"></script>
 </body>
 </html>
